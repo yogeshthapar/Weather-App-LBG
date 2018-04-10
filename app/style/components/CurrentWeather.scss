@@ -1,0 +1,22 @@
+.current-weather {
+
+    p{
+        .key{
+
+            font-weight: bold;
+            line-height: 2.5;
+        }
+
+        font-size: 1.1rem;
+    }
+    //flex:1;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+    padding: 2rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    z-index: 10;
+    position: relative;
+}
